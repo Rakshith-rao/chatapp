@@ -8,7 +8,7 @@ import openai
 load_dotenv()
 
 openai.api_key = os.getenv('OPENAI_API_KEY')
-openai.api_key  = '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'
+openai.api_key  = 'your-key'
 st.title("Chatbot")
 st.subheader("The ultimate AI assistance")
 
